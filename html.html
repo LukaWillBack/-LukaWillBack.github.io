@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="icon" href="favicon.ico">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Rubik+80s+Fade&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="цсс.css?v=0.8">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML</title>
+</head>
+<body class="body">
+    <div class="preloader">
+        <div class="preloader__image"></div>
+    </div>
+    <script>
+        window.onload = function () {
+            document.body.classList.add('loaded_hiding');
+            window.setTimeout(function () {
+            document.body.classList.add('loaded');
+            document.body.classList.remove('loaded_hiding');
+            }, 500);
+        }
+      </script>
+    <input class="checkbox_input" type="checkbox" id="checkbox1">
+    <div class="root">
+        <div class="header">
+            <img src="icon.png" alt="Ошибка загрузки, повторите позже" width="72" height="72" class="rightimg1"><div class="susa">HTML</div>
+        </div>
+        <div class="center">
+            Начнем с разбора самых базов определений<br><br>
+            &nbsp;HTML — стандартизированный язык гипертекстовой разметки документов для просмотра веб-страниц в браузере.<br>
+            &nbsp;Тег — элемент языка разметки гипертекста. Есть парные и непарные. Парный тег без пары вызовет ошибку, но есть исключения в виде тегов которые могут быть как с парой, так и без, хотя настоятельно рекомендуется ставить пару.<br>
+            &nbsp;Атрибуты HTML — это специальные слова, используемые внутри открывающего тега для управления поведением элемента.<br><br>
+            Вобще тэги делятся на парные и непарные, рассмотрим часть из них<br><br>
+            <img src="HTML_folder/chrome_l2mITlPl4u.png" alt="Ошибка загрузки, повторите позже" width="237" height="235" class="rightimg">&nbsp;Парные:<br>
+            <div class="coc">&nbsp;&lt;h1&gt; - &lt;h6&gt; — HTML предлагает шесть заголовков разного уровня, которые показывают относительную важность секции, расположенной после заголовка. Так, тег &lt;h1&gt;
+                 представляет собой наиболее важный заголовок первого уровня, а тег &lt;h6&gt; служит для обозначения заголовка шестого уровня и является наименее значительным.<br>
+                 &nbsp;&lt;html&gt; — Является контейнером, который заключает в себе все содержимое веб-страницы, включая теги &lt;head&gt; и &lt;body&gt;.<br>
+                 &nbsp;&lt;head&gt; — Предназначен для хранения других элементов, цель которых — помочь браузеру в работе с данными.<br>
+                 &nbsp;&lt;body&gt; — Предназначен для хранения содержания веб-страницы (контента), отображаемого в окне браузера.<br>
+                 &nbsp;&lt;p&gt; — Определяет текстовый абзац. Является блочным элементом, всегда начинается с новой строки, абзацы текста идущие друг за другом разделяются между собой отбивкой.<br>
+                 &nbsp;&lt;sub&gt; — Отображает шрифт в виде нижнего индекса.<br>
+                 &nbsp;&lt;sup&gt; — Отображает шрифт в виде верхнего индекса.<br></div>
+                 <img src="HTML_folder/chrome_l2mITlPl4u.png" alt="Ошибка загрузки, повторите позже" class="mobimg"><br>
+                 &nbsp;Непарные:<br>
+                <img src="HTML_folder/chrome_CWwiS6F2ct.png" alt="Ошибка загрузки, повторите позже" width="175" height="156" class="rightimg"><div class="coc">&nbsp;&lt;br&gt; — Устанавливает перевод строки в том месте, где этот тег находится.<br>
+                &nbsp;&lt;hr&gt; — Рисует горизонтальную линию.<br>
+                &nbsp;&lt;a&gt; — Предназначен для создания ссылок. В зависимости от присутствия атрибутов name или href тег &lt;a&gt; устанавливает ссылку(href) или якорь(name). Якорем называется закладка внутри страницы,
+                 которую можно указать в качестве цели ссылки. При использовании ссылки, которая указывает на якорь, происходит переход к закладке внутри веб-страницы.<br></div>
+                <img src="HTML_folder/chrome_l2mITlPl4u.png" alt="Ошибка загрузки, повторите позже" class="mobimg"><br>
+                Есть достаточно много других тегов которые комбинируются со стилями и все время дополняются, тут перечислена самая база которая поможет в старте изучения, после которой будет базовое понимание структуры  веб-страницы.
+                <var>
+                   
+                
+                </var>
+        </div>
+        <div class="navbar">
+            <ul>
+                <li><a href="html.html">HTML</a></li>
+                <li><a href="number_systems.html">Системы счисления</a></li>
+                <li><a href="python.html">Python</a></li>
+                <li><a href="index.html">Главная</a></li>
+            </ul>
+        </div>
+        <div class="footer">
+            <a href="https://vk.com/persyan" class="iconup">
+         
+                <img class="socicon vk" src="vk.png" alt="fuf">
+                     vkontakte
+            </a>
+        </div>
+        <div class="checkbox">
+            <label class="checkbox_label" for="checkbox1">&nbsp;навигация</label>    
+        </div>
+    </div>
+</body>
+</html>
